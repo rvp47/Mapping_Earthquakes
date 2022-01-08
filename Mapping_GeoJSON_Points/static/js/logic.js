@@ -28,11 +28,6 @@ let map = L.map('mapid', {
 // Pass our map layers into our layers control and add the layers control to the map.
 L.control.layers(baseMaps).addTo(map);
 
-
-
-
-
-
 let airportData = "https://raw.githubusercontent.com/rvp47/Mapping_Earthquakes/main/majorAirports.json";
 
 // Grabbing our GeoJSON data.
